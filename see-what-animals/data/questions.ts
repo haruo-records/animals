@@ -7,6 +7,7 @@ import type { ObservationQuestion } from "@/types";
 export const questions: ObservationQuestion[] = [
   {
     id: "q-see",
+    version: "1",
     type: "single-choice",
     question: { en: "What do you see?", ja: "何に見えましたか？" },
     required: true,
@@ -19,6 +20,7 @@ export const questions: ObservationQuestion[] = [
   },
   {
     id: "q-move",
+    version: "1",
     type: "single-choice",
     question: { en: "How does it move?", ja: "どのように動いているように見えますか？" },
     required: false,
@@ -31,6 +33,7 @@ export const questions: ObservationQuestion[] = [
   },
   {
     id: "q-name",
+    version: "1",
     type: "free-text",
     question: { en: "What would you call it?", ja: "どんな名前を付けますか？" },
     required: false,
